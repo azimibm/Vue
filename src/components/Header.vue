@@ -11,8 +11,17 @@ export default {
   props: {
     message: {
       type: String,
-      default: 'No TODOS'
+      default: 'TODO List'
     }
   }
 }
 </script>
+
+<style scoped>
+  header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+</style>
